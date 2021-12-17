@@ -6,6 +6,8 @@ const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+// Wenn du was empfängst oder wegschickst, dann bitte alles als json (json ist in diesem Fall eine Funktion)
+// app.use ist alle Konfiguration; wie express bzw. wie der Server sich verhalten soll
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
