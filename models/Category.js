@@ -1,5 +1,6 @@
 const { Model, DataTypes } = require("sequelize");
 
+// Hier importiere ich connection.js
 const sequelize = require("../config/connection.js");
 
 class Category extends Model {}
@@ -20,6 +21,8 @@ Category.init(
     },
   },
   {
+    // Hier durch weiß jedes Model "ich bin Teil der Datenbank"
+    // Ist der Zugang zur Datenbank, als Kurzschreibform "sequelize: sequelize"
     sequelize,
     timestamps: false,
     freezeTableName: true,

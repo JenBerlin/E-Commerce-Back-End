@@ -2,6 +2,8 @@ require("dotenv").config();
 
 const Sequelize = require("sequelize");
 
+// Diese Vabriable ist meine Verbindung zur Datenbank.
+
 const sequelize = process.env.JAWSDB_URL
   ? new Sequelize(process.env.JAWSDB_URL)
   : new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PW, {
@@ -13,4 +15,5 @@ const sequelize = process.env.JAWSDB_URL
       logging: false,
     });
 
+    // Hier exportiere ich diese Variable
 module.exports = sequelize;
