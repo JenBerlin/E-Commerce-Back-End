@@ -27,7 +27,7 @@ The starter code has been modified as followw:
 - Setting up the database by completing the database models as requiered
 - The connection file establishes the database connection by using "sequelize" in node.js, the .env as well as by naming the host (localhost) and dialect (MySQL)
 - The API routes are setting up the relation between the tabels and the requests (get, post, put and delete) by using express.js
--
+- ...
 
 # Screenshots
 
@@ -79,4 +79,4 @@ The starter code has been modified as followw:
 - server.js
 
 - GitHub (dev branch): https://github.com/JenBerlin/Employee-Tracker/pull/1
-- Walkthrough-Video: https://drive.google.com/file/d/14cqFpcQAvYcv-W4kQOxrLgCLGUOHPzO4/view?usp=sharing
+- Walkthrough-Video: https://drive.google.com/file/d/1swQvT589002EUIxXz-TQp0FyrmelDmSR/view?usp=sharing
